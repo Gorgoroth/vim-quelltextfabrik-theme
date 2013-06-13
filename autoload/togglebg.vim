@@ -1,10 +1,21 @@
 " Toggle Background
+
+" --- Make sure we only load once
+if exists("g:quelltextfabrik_bgtoggle") || &cp
+  finish
+endif
+let g:quelltextfabrik_bgtoggle=1
+
+if exists("g:default_background_type")
+  let g:default_background_type="dark"
+endif
+
+" --- Toggle background and reload theme
 function! ReverseBackground()
- if &bg=="light"
- se bg=dark
- else
- se bg=light
- endif
+  let &background = ( &background == "dark"? "light" : "dark" )
+  color quelltextfabrik
 endfunction
+
+" --- Map command and key
 command! Invbg call ReverseBackground()
 noremap <F9> :Invbg<CR>
