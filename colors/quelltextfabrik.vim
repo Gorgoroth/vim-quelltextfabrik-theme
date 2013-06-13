@@ -9,7 +9,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "quelltextfabrik_dark"
+let g:colors_name = "quelltextfabrik"
 
 if &background == 'dark'
   " General VIM colors
