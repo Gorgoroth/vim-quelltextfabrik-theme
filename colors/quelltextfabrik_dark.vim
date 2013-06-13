@@ -2,6 +2,7 @@
 " Maintainer: Valentin Klinghammer <valentin@quelltextfabrik.de>
 " Last Change: 13-06-2013
 
+set background=dark
 highlight clear
 
 if exists("syntax_on")
