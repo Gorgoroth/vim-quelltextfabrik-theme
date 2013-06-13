@@ -20,3 +20,6 @@ Then after that, change the theme in your .vimrc
     colorscheme quelltextfabrik_dark
 
 _Attention!_ Switch the colorscheme after running Vundler in you .vimrc!
+
+## Screenshot
+[!Dark version of Quelltextfabrik VIM color scheme](screenshot_dark.png)
