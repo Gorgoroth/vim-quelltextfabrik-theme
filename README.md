@@ -21,6 +21,13 @@ Then after that, change the theme in your .vimrc
 
 _Attention!_ Switch the colorscheme after running Vundler in you .vimrc!
 
-## Screenshot
+## Screenshots
+### Tiger
+If you work through the night, this theme is for you. The dark, low contrast version of this theme is sure to keep your eyes relaxed as much as possible.
+
 ![Dark version of Quelltextfabrik VIM color scheme](screenshot_dark.png)
+
+### Grizzly
+If you work in bright conditions, like outside in the sun, then this theme is for you. Maximum contrast should help you to see everything you need.
+
 ![Light version of Quelltextfabrik VIM color scheme](screenshot_light.png)
