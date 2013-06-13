@@ -7,4 +7,4 @@ function! ReverseBackground()
  endif
 endfunction
 command! Invbg call ReverseBackground()
-noremap <F11> :Invbg<CR>
+noremap <F9> :Invbg<CR>
