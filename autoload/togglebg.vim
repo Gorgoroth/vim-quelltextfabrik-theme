@@ -12,10 +12,10 @@ endif
 
 " --- Toggle background and reload theme
 function! ReverseBackground()
-  let &background = ( &background == "dark"? "light" : "dark" )
+  echo &background
+  let background = ( &background == "dark" ? "light" : "dark" )
   color quelltextfabrik
 endfunction
 
-" --- Map command and key
-command! Invbg call ReverseBackground()
-noremap <F9> :Invbg<CR>
+" --- Map key
+noremap <F9> :call ReverseBackground()<CR>
