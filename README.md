@@ -23,3 +23,4 @@ _Attention!_ Switch the colorscheme after running Vundler in you .vimrc!
 
 ## Screenshot
 ![Dark version of Quelltextfabrik VIM color scheme](screenshot_dark.png)
+![Light version of Quelltextfabrik VIM color scheme](screenshot_light.png)
