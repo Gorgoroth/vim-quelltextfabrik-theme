@@ -40,6 +40,7 @@ hi Menu         ctermfg=235 ctermbg=246   cterm=none
 if version >= 700
   hi CursorLine                 ctermbg=236   cterm=none
   hi CursorLineNr   ctermfg=247 ctermbg=235   cterm=none
+  hi CursorColumn               ctermbg=236   cterm=none
   " Matching parentesis
   hi MatchParen     ctermfg=235 ctermbg=246   cterm=none
 endif
